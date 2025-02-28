@@ -35,23 +35,23 @@
     <section class="mt-10 flex justify-between">
         <!-- left side -->
         <div class="p-5 bg-white border-b border-dashed border-gray-400">
-            <div class="flex justify-between gap-1">
-                <div class="p-3 rounded-lg flex items-center gap-4 bg-[#F4F7FF]">
+            <div class="flex justify-between gap-10">
+                <div class="p-5 rounded-lg flex items-center gap-4 bg-[#F4F7FF]">
                     <div class="bg-white rounded-full p-4"><img src="assets/checkbox.png" alt=""></div>
                     <div>
                         <p>Task Assigned</p>
                         <h1 class="font-bold text-2xl">06</h1>
                     </div>
                 </div>
-                <div class="p-3 rounded-lg flex items-center gap-3 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]">
+                <div id="blog-btn" class="p-5 pr-20 rounded-lg flex items-center gap-3 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]">
                     <img src="assets/board.png" alt="">
                     <h1 class="text-white text-xl">Discover Something <br> New Today!</h1>
                 </div>
-                <div class="p-3 rounded-lg flex items-center gap-5 bg-[#F4F7FF]">
+                <div class="p-5 rounded-lg flex items-center gap-5 bg-[#F4F7FF]">
                     <div class="bg-white rounded-full p-4"><img src="assets/calender.png" alt=""></div>
                     <div>
                         <p id="day"></p>
-                        <p id="full-date" class="font-bold"></p>
+                        <p id="full-date" class="font-bold text-2xl"></p>
                     </div>
                 </div>
             </div>
@@ -59,11 +59,15 @@
 
         <!-- right side -->
         <div class="p-5 bg-white">
-            
+            <div class="flex gap-2">
+                <img src="assets/activity.png" alt="">
+                <p>Activity Log</p>
+            </div>
         </div>
     </section>
 
     <script src="script/theme.js"></script>
     <script src="script/time.js"></script>
+    <script src="script/toggle.js"></script>
   </body>
 </html>
