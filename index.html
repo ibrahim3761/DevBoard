@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Board</title>
-    <link rel="icon" href="/assets/logo.png">
+    <link rel="icon" href="/assets/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +27,7 @@
       <div class="flex gap-5">
         <div class="flex items-center gap-5 bg-[#F4F7FF] rounded-3xl p-4">
           <img src="assets/checkbox.png" alt="" />
-          <span class="font-bold text-2xl">23</span>
+          <span id="comp-task-num" class="font-bold text-2xl">23</span>
         </div>
         <div id="theme-controler" class="bg-[#F4F7FF] rounded-full p-4">
           <img src="assets/theme-btn.png" alt="" />
@@ -39,7 +39,7 @@
       <!-- left side -->
       <div class="rounded-lg bg-white col-span-4">
         <div
-          class="p-5 border-b border-dashed border-gray-400 flex justify-between gap-5"
+          class="p-5 pb-8 border-b border-dashed border-gray-400 flex justify-between gap-5"
         >
           <div class="p-7 rounded-lg flex items-center gap-4 bg-[#F4F7FF]">
             <div class="bg-white rounded-full p-4">
@@ -47,7 +47,7 @@
             </div>
             <div>
               <p class="text-lg">Task Assigned</p>
-              <h1 class="font-bold text-2xl">06</h1>
+              <h1 id="task-ass-num" class="font-bold text-2xl">06</h1>
             </div>
           </div>
           <div
@@ -71,16 +71,16 @@
           </div>
         </div>
 
-        <div class="mt-5 p-5 grid grid-cols-3 gap-5">
+        <div class="mt-2 p-5 grid grid-cols-3 gap-5">
           <div class="p-5 bg-[#F4F7FF] rounded-lg">
             <div class="pb-5 border-b border-dashed border-gray-400">
               <button class="bg-white p-2 rounded-lg mt-2">ShopEase</button>
-              <h1 class="mt-2 font-bold">Fix Mobile Button Issue </h1>
+              <h1 id="card-title-1" class="mt-2 font-bold">Fix Mobile Button Issue</h1>
               <p
                 class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500"
               >
-              Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-              and ensure onClick works properly
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly and ensure onClick works properly
               </p>
             </div>
             <div class="mt-4 flex justify-between">
@@ -89,7 +89,10 @@
                 <p>21 March 2025</p>
               </div>
               <div>
-                <button class="bg-[#3752FD] p-2 rounded-lg text-white">
+                <button
+                  id="cmp-btn-1"
+                  class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white"
+                >
                   Completed
                 </button>
               </div>
@@ -99,7 +102,7 @@
           <div class="p-5 bg-[#F4F7FF] rounded-lg">
             <div class="pb-5 border-b border-dashed border-gray-400">
               <button class="bg-white p-2 rounded-lg mt-2">Cloud Sync</button>
-              <h1 class="mt-2 font-bold">Add Dark Mode</h1>
+              <h1 id="card-title-2" class="mt-2 font-bold">Add Dark Mode</h1>
               <p
                 class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500"
               >
@@ -113,7 +116,10 @@
                 <p>21 March 2025</p>
               </div>
               <div>
-                <button class="bg-[#3752FD] p-2 rounded-lg text-white">
+                <button
+                  id="cmp-btn-2"
+                  class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white"
+                >
                   Completed
                 </button>
               </div>
@@ -123,12 +129,12 @@
           <div class="p-5 bg-[#F4F7FF] rounded-lg">
             <div class="pb-5 border-b border-dashed border-gray-400">
               <button class="bg-white p-2 rounded-lg mt-2">SwiftPay</button>
-              <h1 class="mt-2 font-bold">Optimize  Home page </h1>
+              <h1 id="card-title-3" class="mt-2 font-bold">Optimize Home page </h1>
               <p
                 class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500"
               >
-              Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-              and ensure onClick works properly
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly and ensure onClick works properly
               </p>
             </div>
             <div class="mt-4 flex justify-between">
@@ -137,7 +143,10 @@
                 <p>21 March 2025</p>
               </div>
               <div>
-                <button class="bg-[#3752FD] p-2 rounded-lg text-white">
+                <button
+                  id="cmp-btn-3"
+                  class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white"
+                >
                   Completed
                 </button>
               </div>
@@ -147,11 +156,12 @@
           <div class="p-5 bg-[#F4F7FF] rounded-lg">
             <div class="pb-5 border-b border-dashed border-gray-400">
               <button class="bg-white p-2 rounded-lg mt-2">Meta</button>
-              <h1 class="mt-2 font-bold">Add new emoji 🤲</h1>
+              <h1 id="card-title-4" class="mt-2 font-bold">Add new emoji 🤲</h1>
               <p
                 class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500"
               >
-              Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
               </p>
             </div>
             <div class="mt-4 flex justify-between">
@@ -160,7 +170,10 @@
                 <p>21 March 2025</p>
               </div>
               <div>
-                <button class="bg-[#3752FD] p-2 rounded-lg text-white">
+                <button
+                  id="cmp-btn-4"
+                  class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white"
+                >
                   Completed
                 </button>
               </div>
@@ -170,20 +183,24 @@
           <div class="p-5 bg-[#F4F7FF] rounded-lg">
             <div class="pb-5 border-b border-dashed border-gray-400">
               <button class="bg-white p-2 rounded-lg mt-2">Google LLC</button>
-              <h1 class="mt-4 font-bold">Integrate OpenAI API</h1>
+              <h1 id="card-title-5" class="mt-2 font-bold">Integrate OpenAI API</h1>
               <p
                 class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500"
               >
-              Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
               </p>
             </div>
-            <div class="mt-2 flex justify-between">
+            <div class="mt-4 flex justify-between">
               <div>
                 <p>Deadline</p>
                 <p>21 March 2025</p>
               </div>
               <div>
-                <button class="bg-[#3752FD] p-2 rounded-lg text-white">
+                <button
+                  id="cmp-btn-5"
+                  class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white"
+                >
                   Completed
                 </button>
               </div>
@@ -193,11 +210,12 @@
           <div class="p-5 bg-[#F4F7FF] rounded-lg">
             <div class="pb-5 border-b border-dashed border-gray-400">
               <button class="bg-white p-2 rounded-lg mt-2">Glassdoar</button>
-              <h1 class="mt-2">Improve Job searching</h1>
+              <h1 id="card-title-6" class="mt-2">Improve Job searching</h1>
               <p
                 class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500"
               >
-              Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
               </p>
             </div>
             <div class="mt-4 flex justify-between">
@@ -206,7 +224,10 @@
                 <p>21 March 2025</p>
               </div>
               <div>
-                <button class="bg-[#3752FD] p-2 rounded-lg text-white">
+                <button
+                  id="cmp-btn-6"
+                  class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white"
+                >
                   Completed
                 </button>
               </div>
@@ -216,13 +237,22 @@
       </div>
 
       <!-- right side -->
-      <div class="flex flex-col items-center py-5 bg-white col-span-1">
-        <div class="flex gap-2">
-          <img src="assets/activity.png" alt="" />
-          <p>Activity Log</p>
+      <div class="pt-5 bg-white col-span-1 rounded-lg ">
+        <div class="flex flex-col items-center border-b border-dashed pb-5 border-gray-400 mb-3">
+          <div class="flex gap-2">
+            <img src="assets/activity.png" alt="" />
+            <p>Activity Log</p>
+          </div>
+  
+          <div class="mt-5">
+            <button id="clr-his-btn" class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+              Clear History
+            </button>
+          </div>
         </div>
-        <div class="mt-5">
-          <button class="bg-[#3752FD] p-2 rounded-lg text-white">Clear History</button>
+
+        <div id="task-complete-container">
+          
         </div>
       </div>
     </section>
@@ -230,5 +260,7 @@
     <script src="script/theme.js"></script>
     <script src="script/time.js"></script>
     <script src="script/toggle.js"></script>
+    <script src="script/task.js"></script>
+    <script src="script/utilities.js"></script>
   </body>
 </html>

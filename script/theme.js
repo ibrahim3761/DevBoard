@@ -3,7 +3,7 @@ const button = document.getElementById("theme-controler");
 const body = document.body;
 
 
-const colors = ["#F4F7FF", "#FAF3E0", "#E0F7FA", "#FCE4EC"];
+const colors = ["#F4F7FF", "#FAF3E0", "#E0F7FA", "#FCE4EC",];
 let i = 0; 
 
 button.addEventListener("click", function() {
